@@ -1,4 +1,4 @@
-var path = require('path')
+var path = require('path');
 
 module.exports = {
   module: {
@@ -6,7 +6,7 @@ module.exports = {
       {
         test: /\.css?$/,
         loaders: [ 'style', 'raw' ],
-        include: path.resolve(__dirname + '../')
+        include: path.resolve(__dirname, '../')
       }
     ]
   }
